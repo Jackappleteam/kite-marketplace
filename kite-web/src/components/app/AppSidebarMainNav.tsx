@@ -53,7 +53,7 @@ export default function AppSidebarMainNav() {
       {
         title: "Marketplace",
         url: "/apps/[appId]/marketplace",
-        icon: StoreIcon,
+        icon: LayoutDashboardIcon,
         active: isActive("/apps/[appId]/marketplace"),
       },
       {
