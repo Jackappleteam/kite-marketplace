@@ -51,6 +51,12 @@ export default function AppSidebarMainNav() {
         active: isActive("/apps/[appId]", true),
       },
       {
+        title: "Marketplace",
+        url: "/apps/[appId]/marketplace",
+        icon: StoreIcon,
+        active: isActive("/apps/[appId]/marketplace"),
+      },
+      {
         title: "Premium",
         url: "/apps/[appId]/premium",
         icon: CrownIcon,
